@@ -1,0 +1,30 @@
+{
+  "displayName": "BlueConnect",
+  "name": "homebridge-blueconnect",
+  "version": "0.1.2",
+  "description": "Add your BlueRiiot smart pool device to homebridge",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanAxl/homebridge-blueconnect.git"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=10.17.0",
+    "homebridge": ">=0.4.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-api-gateway-client": "^0.3.7"
+  },
+  "bugs": {
+    "url": "https://github.com/VanAxl/homebridge-blueconnect/issues"
+  },
+  "homepage": "https://github.com/VanAxl/homebridge-blueconnect#readme",
+  "main": "index.js",
+  "author": "VanAxl"
+}
